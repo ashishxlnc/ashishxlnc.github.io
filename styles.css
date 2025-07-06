@@ -1431,4 +1431,19 @@ footer a {
   .easy-privacy h2 {
     font-size: 1.05rem;
   }
+}
+
+.side-by-side {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: center;
+  align-items: stretch;
+}
+@media (max-width: 900px) {
+  .side-by-side {
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+  }
 } 
