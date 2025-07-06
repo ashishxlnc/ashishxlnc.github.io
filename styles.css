@@ -1232,14 +1232,30 @@ footer a {
     text-align: center;
     padding: 0;
   }
+  .creative-hero-content h1 {
+    font-size: 2rem;
+  }
+  .creative-sub {
+    font-size: 1rem;
+  }
   .creative-app-card img {
     width: 90vw;
     max-width: 350px;
+  }
+  .hero-blobs .blob1, .hero-blobs .blob2, .hero-blobs .blob3 {
+    width: 40vw !important;
+    height: 40vw !important;
+    min-width: 120px;
+    min-height: 120px;
   }
   .creative-stepper {
     flex-direction: column;
     gap: 1.2rem;
     align-items: center;
+  }
+  .step-group {
+    width: 100%;
+    max-width: 350px;
   }
   .step-imgs img {
     width: 90vw;
@@ -1260,9 +1276,33 @@ footer a {
   .alt-carousel {
     flex-direction: column;
     align-items: center;
+    gap: 1.2rem;
+  }
+  .alt-card {
+    min-width: 0;
+    width: 90vw;
+    max-width: 350px;
   }
   .testimonial-bubbles {
     flex-direction: column;
     align-items: center;
+  }
+  .bubble {
+    width: 90vw;
+    max-width: 350px;
+  }
+  .creative-footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+  }
+  .footer-links {
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  .footer-socials {
+    margin-top: 0.5rem;
   }
 } 
