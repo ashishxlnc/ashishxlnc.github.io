@@ -1305,4 +1305,81 @@ footer a {
   .footer-socials {
     margin-top: 0.5rem;
   }
+}
+
+.mobile-stack {
+  flex-direction: column !important;
+  align-items: center !important;
+  text-align: center;
+  padding: 2rem 0.5rem 1rem 0.5rem !important;
+}
+.mobile-steps-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  width: 100%;
+}
+.mobile-step-card {
+  background: #f8fafb;
+  border-radius: 1.5rem;
+  box-shadow: 0 2px 8px rgba(44, 125, 91, 0.07);
+  padding: 1.5rem 1rem;
+  width: 100%;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.7rem;
+}
+.mobile-step-card .step-icon {
+  font-size: 2.2rem;
+}
+.mobile-step-card .step-label {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2e7d5b;
+}
+.mobile-step-card img {
+  width: 90vw;
+  max-width: 220px;
+  border-radius: 1.2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  background: #fff;
+}
+@media (max-width: 900px) {
+  .mobile-stack {
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center;
+    padding: 2rem 0.5rem 1rem 0.5rem !important;
+  }
+  .mobile-steps-list {
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    width: 100%;
+  }
+  .mobile-step-card {
+    width: 100%;
+    max-width: 350px;
+    padding: 1.5rem 1rem;
+  }
+  .mobile-step-card img {
+    width: 90vw;
+    max-width: 220px;
+  }
+  .alt-carousel, .testimonial-bubbles {
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 1.2rem;
+    align-items: stretch;
+    width: 100vw;
+    padding-bottom: 1rem;
+  }
+  .alt-card, .bubble {
+    min-width: 240px;
+    max-width: 90vw;
+    flex: 0 0 auto;
+  }
 } 
